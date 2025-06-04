@@ -74,7 +74,9 @@
     <footer class="bg-white shadow-md mt-8 py-8">
       <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <div class="flex items-center mb-4 md:mb-0">
-          <img src="/manash_kozybayev_north_kazakhstan_university_logo.png" alt="Manash Kozybayev North Kazakhstan University Logo" class="h-12 w-auto mr-4">
+          <a href="https://www.instagram.com/kozybayevuniversity?igsh=MXNpMXdjc3J2MHhvYQ==" target="_blank">
+            <img src="/manash_kozybayev_north_kazakhstan_university_logo.png" alt="Manash Kozybayev North Kazakhstan University Logo" class="h-12 w-auto mr-4">
+          </a>
         </div>
 
         <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-gray-600">
