@@ -57,7 +57,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8 mt-16">
+    <main class="container mx-auto px-4 py-8 mt-16 bg-white bg-opacity-90 p-6 rounded-lg shadow-lg">
       <transition
         enter-active-class="transition duration-300 ease-out"
         enter-from-class="transform translate-y-4 opacity-0"
