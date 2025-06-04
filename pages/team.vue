@@ -5,35 +5,30 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Адлет -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-300 hover:scale-105 hover:shadow-xl">
-        <img src="/placeholder-adlet.jpg" alt="Адлет" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
         <h2 class="text-2xl font-semibold text-gray-800 mb-2">Адлет</h2>
         <p class="text-gray-600">Амбициозный парень с хорошими лидерскими качествами</p>
       </div>
 
       <!-- Нурдаулет -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-300 hover:scale-105 hover:shadow-xl">
-         <img src="/placeholder-nurdaulet.jpg" alt="Нурдаулет" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
         <h2 class="text-2xl font-semibold text-gray-800 mb-2">Нурдаулет</h2>
         <p class="text-gray-600">Ответственный за команду, который готов помочь каждому</p>
       </div>
 
       <!-- Ералы -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-300 hover:scale-105 hover:shadow-xl">
-         <img src="/placeholder-eraly.jpg" alt="Ералы" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
         <h2 class="text-2xl font-semibold text-gray-800 mb-2">Ералы</h2>
         <p class="text-gray-600">Сдержанный, но в тоже время очень умный парень</p>
       </div>
 
       <!-- Амина -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-300 hover:scale-105 hover:shadow-xl">
-         <img src="/placeholder-amina.jpg" alt="Амина" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
         <h2 class="text-2xl font-semibold text-gray-800 mb-2">Амина</h2>
         <p class="text-gray-600">Жизнерадостная девушка, поднимает настроение всей команды</p>
       </div>
 
       <!-- Аружан -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-300 hover:scale-105 hover:shadow-xl">
-         <img src="/placeholder-aruzhan.jpg" alt="Аружан" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
         <h2 class="text-2xl font-semibold text-gray-800 mb-2">Аружан</h2>
         <p class="text-gray-600">Сердце команды</p>
       </div>
