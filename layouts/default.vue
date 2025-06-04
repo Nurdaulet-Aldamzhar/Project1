@@ -145,9 +145,9 @@ const isTeamMenuOpen = ref(false)
 // Close menu when clicking outside
 onMounted(() => {
   document.addEventListener('click', (e) => {
-    const menu = document.querySelector('.md\:hidden')
-    const button = document.querySelector('button.md\:hidden')
-    const teamButton = document.querySelector('button:contains('Team')') // Select by text content
+    const menu = document.querySelector('.md\\:hidden')
+    const button = document.querySelector('button.md\\:hidden')
+    const teamButton = document.querySelector("button:contains('Team')") // Select by text content
 
     // Close mobile menu if click is outside menu and button
     if (menu && button && !menu.contains(e.target) && !button.contains(e.target)) {
