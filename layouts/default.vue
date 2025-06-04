@@ -13,7 +13,6 @@
           <!-- Desktop Navigation -->
           <div class="hidden md:flex space-x-6">
             <NuxtLink to="/" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Home</NuxtLink>
-            <NuxtLink to="/lab3" class="text-gray-600 hover:text-gray-900">Lab3</NuxtLink>
             <NuxtLink to="/login" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">LogIn</NuxtLink>
             <button class="text-gray-600 hover:text-gray-900 transition-colors duration-200">LogOut</button>
           </div>
@@ -44,13 +43,6 @@
                 @click="isMenuOpen = false"
               >
                 Home
-              </NuxtLink>
-              <NuxtLink 
-                to="/lab3" 
-                class="text-gray-600 hover:text-gray-900"
-                @click="isMenuOpen = false"
-              >
-                Lab3
               </NuxtLink>
               <NuxtLink 
                 to="/login" 
