@@ -78,10 +78,22 @@
         </div>
 
         <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-gray-600">
-          <a href="https://www.instagram.com/zhanga1iyev" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram</a>
-          <a href="https://www.instagram.com/amanzholo1v/" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram</a>
-          <a href="https://www.instagram.com/a1tmukhambet?igsh=MWx1aWllajE3d28xZg==" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram</a>
-          <span>Телефон: +7 702 912 7039</span>
+          <a href="https://www.instagram.com/zhanga1iyev" target="_blank" class="hover:text-gray-900 transition-colors duration-200 flex items-center">
+            <img src="/isnt_logo.png" alt="Instagram Logo" class="h-5 w-5 mr-1">
+            Instagram
+          </a>
+          <a href="https://www.instagram.com/amanzholo1v/" target="_blank" class="hover:text-gray-900 transition-colors duration-200 flex items-center">
+             <img src="/isnt_logo.png" alt="Instagram Logo" class="h-5 w-5 mr-1">
+            Instagram
+          </a>
+          <a href="https://www.instagram.com/a1tmukhambet?igsh=MWx1aWllajE3d28xZg==" target="_blank" class="hover:text-gray-900 transition-colors duration-200 flex items-center">
+             <img src="/isnt_logo.png" alt="Instagram Logo" class="h-5 w-5 mr-1">
+            Instagram
+          </a>
+          <span class="flex items-center">
+             <img src="/phonelogo.png" alt="Phone Logo" class="h-5 w-5 mr-1">
+            +7 702 912 7039
+          </span>
         </div>
       </div>
     </footer>
