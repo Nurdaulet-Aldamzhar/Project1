@@ -1,23 +1,27 @@
 <template>
   <div class="max-w-4xl mx-auto">
-    <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Welcome to My Nuxt App</h1>
-      <p class="text-gray-600 text-base md:text-lg leading-relaxed">
-        This is a modern, responsive web application built with Nuxt 3 and Tailwind CSS. 
-        It features a mobile-first design approach, ensuring a great user experience across all devices.
+    <h1 class="text-4xl font-bold text-center mb-8">Привет! Мы — Братва 👊</h1>
+    
+    <div class="prose prose-lg mx-auto">
+      <p class="text-lg mb-6">
+        Мы — обычные первокурсники из Козыбаева, учимся в Северном Казахстане.
+        Нас пятеро: Амина, Нурдаулет, Ералы, Адлет и Аружан.
       </p>
-      
-      <!-- Features Section -->
-      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h2 class="text-xl font-semibold text-gray-800 mb-2">Responsive Design</h2>
-          <p class="text-gray-600">Optimized for all screen sizes, from mobile to desktop.</p>
-        </div>
-        <div class="bg-gray-50 p-4 rounded-lg">
-          <h2 class="text-xl font-semibold text-gray-800 mb-2">Modern UI</h2>
-          <p class="text-gray-600">Clean and intuitive interface with smooth animations.</p>
-        </div>
-      </div>
+
+      <p class="text-lg mb-6">
+        Назвали себя "Братва", потому что мы реально команда — поддерживаем друг друга, 
+        шутим, учимся, делаем проекты и просто вместе проходим через всё, что даёт 
+        студенческая жизнь.
+      </p>
+
+      <p class="text-lg mb-6">
+        На этом сайте будем выкладывать наши идеи, проекты и, может быть, немного 
+        весёлых историй из жизни :)
+      </p>
+
+      <p class="text-lg font-semibold text-center">
+        Заходи, будет интересно!
+      </p>
     </div>
   </div>
 </template>
@@ -26,4 +30,16 @@
 definePageMeta({
   layout: 'default'
 })
-</script> 
+</script>
+
+<style>
+.prose {
+  max-width: 65ch;
+  color: #374151;
+}
+
+.prose p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+</style> 

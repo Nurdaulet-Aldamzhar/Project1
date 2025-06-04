@@ -7,14 +7,13 @@
           <!-- Logo -->
           <div class="flex items-center">
             <img src="/logo.png" alt="Logo" class="h-10 w-10 mr-2">
-            <span class="text-xl font-bold text-gray-800">My Nuxt App</span>
+            <span class="text-xl font-bold text-gray-800">Bratva</span>
           </div>
 
           <!-- Desktop Navigation -->
           <div class="hidden md:flex space-x-6">
             <NuxtLink to="/" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Home</NuxtLink>
             <NuxtLink to="/login" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">LogIn</NuxtLink>
-            <button class="text-gray-600 hover:text-gray-900 transition-colors duration-200">LogOut</button>
           </div>
 
           <!-- Mobile Menu Button -->
@@ -51,12 +50,6 @@
               >
                 LogIn
               </NuxtLink>
-              <button 
-                class="text-gray-600 hover:text-gray-900 transition-colors duration-200 text-left"
-                @click="isMenuOpen = false"
-              >
-                LogOut
-              </button>
             </div>
           </div>
         </transition>
