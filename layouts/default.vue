@@ -14,23 +14,8 @@
           <div class="hidden md:flex space-x-6">
             <NuxtLink to="/" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Главная</NuxtLink>
             
-            <!-- Team Dropdown (Desktop) -->
-            <div class="relative">
-              <button @click="isTeamMenuOpen = !isTeamMenuOpen" class="text-gray-600 hover:text-gray-900 transition-colors duration-200 focus:outline-none">
-                Команда
-                <svg class="ml-1 h-4 w-4 inline-block transition-transform duration-200" :class="{'rotate-180': isTeamMenuOpen}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </button>
-              <div v-show="isTeamMenuOpen" @click.away="isTeamMenuOpen = false" class="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                  <!-- Dropdown items (placeholder) -->
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Участник 1</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Участник 2</a>
-                  <!-- Add more team members as needed -->
-                </div>
-              </div>
-            </div>
+            <!-- Team Link (Desktop) -->
+            <NuxtLink to="/team" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Команда</NuxtLink>
 
             <NuxtLink to="/login" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">Войти</NuxtLink>
           </div>
@@ -63,21 +48,14 @@
                 Главная
               </NuxtLink>
 
-              <!-- Team Dropdown (Mobile) -->
-              <div>
-                <button @click="isTeamMenuOpen = !isTeamMenuOpen" class="text-gray-600 hover:text-gray-900 transition-colors duration-200 focus:outline-none w-full text-left">
-                  Команда
-                  <svg class="ml-1 h-4 w-4 inline-block transition-transform duration-200" :class="{'rotate-180': isTeamMenuOpen}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </button>
-                <div v-show="isTeamMenuOpen" class="mt-2 space-y-2 pl-4">
-                  <!-- Dropdown items (placeholder) -->
-                  <a href="#" class="block text-sm text-gray-600 hover:text-gray-900" @click="isMenuOpen = false">Участник 1</a>
-                  <a href="#" class="block text-sm text-gray-600 hover:text-gray-900" @click="isMenuOpen = false">Участник 2</a>
-                  <!-- Add more team members as needed -->
-                </div>
-              </div>
+              <!-- Team Link (Mobile) -->
+               <NuxtLink 
+                to="/team" 
+                class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+                @click="isMenuOpen = false"
+              >
+                Команда
+              </NuxtLink>
 
               <NuxtLink 
                 to="/login" 
@@ -140,33 +118,19 @@
 
 <script setup>
 const isMenuOpen = ref(false)
-const isTeamMenuOpen = ref(false)
 
 // Close menu when clicking outside
 onMounted(() => {
   document.addEventListener('click', (e) => {
     const menu = document.querySelector('.md\\:hidden')
     const button = document.querySelector('button.md\\:hidden')
-    const teamButton = document.querySelector("button:contains('Команда')") // Select by text content
-
+    
     // Close mobile menu if click is outside menu and button
     if (menu && button && !menu.contains(e.target) && !button.contains(e.target)) {
       isMenuOpen.value = false
     }
-
-    // Close team dropdown if click is outside dropdown and team button
-    if (isTeamMenuOpen.value && teamButton && !teamButton.contains(e.target) && !e.target.closest('.relative > div[v-show="isTeamMenuOpen"]')) {
-       isTeamMenuOpen.value = false;
-    }
   })
 })
-
-// Close team dropdown when mobile menu is closed
-watch(isMenuOpen, (isOpen) => {
-  if (!isOpen) {
-    isTeamMenuOpen.value = false;
-  }
-});
 
 </script>
 
