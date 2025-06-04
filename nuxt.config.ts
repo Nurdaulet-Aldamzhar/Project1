@@ -12,11 +12,11 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: `https://www.googletagmanager.com/gtag/js?id=G-K8CXRRNFLL`,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-K8CXRRNFLL',
           async: true
         },
         {
-          innerHTML: `
+          children: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());

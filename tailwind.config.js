@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
@@ -9,7 +9,15 @@ export default {
     "./error.vue"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'max-sm': {'max': '480px'},
+        'sm': '481px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+      },
+    },
   },
   plugins: [],
 } 
