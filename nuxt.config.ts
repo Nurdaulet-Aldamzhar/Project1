@@ -16,7 +16,7 @@ export default defineNuxtConfig({
           async: true
         },
         {
-          children: `
+          innerHTML: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -25,5 +25,12 @@ export default defineNuxtConfig({
         }
       ]
     }
+  },
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   }
 })
