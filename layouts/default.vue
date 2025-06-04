@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100">
+  <div class="min-h-screen bg-gray-100" style="background-image: url('/background.png'); background-size: cover; background-position: center;">
     <!-- Header -->
     <header class="bg-white shadow-md fixed w-full top-0 z-50">
       <nav class="container mx-auto px-4 py-4">
