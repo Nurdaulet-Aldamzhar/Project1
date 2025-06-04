@@ -75,13 +75,12 @@
       <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <div class="flex items-center mb-4 md:mb-0">
           <img src="/manash_kozybayev_north_kazakhstan_university_logo.png" alt="Manash Kozybayev North Kazakhstan University Logo" class="h-12 w-auto mr-4">
-          <span class="text-lg font-semibold text-gray-700">Manash Kozybayev North Kazakhstan University</span>
         </div>
 
         <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-gray-600">
-          <a href="https://www.instagram.com/zhanga1iyev" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram 1</a>
-          <a href="https://www.instagram.com/amanzholo1v/" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram 2</a>
-          <a href="https://www.instagram.com/a1tmukhambet?igsh=MWx1aWllajE3d28xZg==" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram 3</a>
+          <a href="https://www.instagram.com/zhanga1iyev" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram</a>
+          <a href="https://www.instagram.com/amanzholo1v/" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram</a>
+          <a href="https://www.instagram.com/a1tmukhambet?igsh=MWx1aWllajE3d28xZg==" target="_blank" class="hover:text-gray-900 transition-colors duration-200">Instagram</a>
           <span>Телефон: +7 702 912 7039</span>
         </div>
       </div>
