@@ -6,7 +6,7 @@
         <div class="flex justify-between items-center">
           <!-- Logo -->
           <div class="flex items-center">
-            <img src="/logo.png" alt="Logo" class="h-10 w-10 mr-2">
+            <img src="/logo.png" alt="Logo" class="h-10 w-10 mr-2 rounded-full">
             <span class="text-xl font-bold text-gray-800">Bratva</span>
           </div>
 
